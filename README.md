@@ -24,7 +24,7 @@ How to get URSim on docker working with "remote control"
       --cpus=1 \
       arranhs/dockursim:latest
      ```
-  2. [localhost:808](http://localhost:8080/)
+  2. [localhost:8080](http://localhost:8080/)
   3. With `ifconfig` find the ip of docker
   4. python3 <your_script.py> <docker_ip>
   
