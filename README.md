@@ -10,19 +10,19 @@ How to get URSim on docker working with "remote control"
 * Assuming you have docker installed and configured
   1. Start the docker container as shown [here](https://github.com/ahobsonsayers/DockURSim#example-usage):
      ```
-     docker volume create dockursim
-     
+     cd ~/ && mkdir programs
+     ```
+     ```    
      docker run -d \
       --name="dockursim" \
       -e ROBOT_MODEL=UR5 \
       -p 8080:8080 \
       -p 29999:29999 \
       -p 30001-30004:30001-30004 \
-      -v /path/to/mount/program/folder:/ursim/programs \
-      -v dockursim:/ursim \
+      -v /${HOME}/programs:/ursim/programs \
       --privileged \
       --cpus=1 \
-      arranhs/dockursim:latest
+      universalrobots/ursim_e-series
      ```
   2. [localhost:8080](http://localhost:8080/)
   3. With `ifconfig` find the ip of docker
