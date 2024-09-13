@@ -29,10 +29,11 @@ How to get URSim on docker working with **Remote Control**
   In your terminal you should get something like this:
   ![image](https://github.com/user-attachments/assets/c621288c-b6ba-4f54-b9b8-762e927ab7bb)
 
-2. Take note of the IP of the simulator that appears on your terminal (red block) and open the link that is shown on your terminal in your preferred browser:
+2. Take note of the IP of the simulator that appears on your terminal (red block) and open the link that is shown on your terminal (green block) in your preferred browser:
+3. 
 ![ur_ip](https://github.com/user-attachments/assets/9a6ac9e3-1c40-4fd2-a81b-96348a9470fa)
 
-3. Initialize the robot:
+4. Initialize the robot:
 
 https://github.com/user-attachments/assets/552ea76b-ee6a-4ba7-8e2c-406c7fe72997
    
