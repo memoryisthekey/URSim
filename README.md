@@ -1,21 +1,20 @@
-# URSim with Docker
+# URSim with Docker + Remote Control
 How to get URSim on docker working with **Remote Control**
 
 
 # Important references:
 * [Official UR Sim on DockerHub](https://hub.docker.com/r/universalrobots/ursim_e-series)
 
-## Quick Guide
+# Quick Guide
 
-### If you don't have Docker installed
+## If you don't have Docker installed
 * Install docker - [Instructions](https://docs.docker.com/engine/install/)
 
 
-### If you do have Docker installed
+## If you do have Docker installed
 
-*  Pull the URSim repository: `docker pull universalrobots/ursim_e-series`
+0. Pull the URSim repository: `docker pull universalrobots/ursim_e-series`
 
-* Next Steps: 
 1. Start the docker container as shown [here](https://hub.docker.com/r/universalrobots/ursim_e-series) or follow the commands below:
      ```
      docker run --rm -it -p 5900:5900 -p 6080:6080 universalrobots/ursim_e-series
