@@ -18,9 +18,7 @@ How to get URSim on docker working with **Remote Control**
 * Next Steps: 
 1. Start the docker container as shown [here](https://hub.docker.com/r/universalrobots/ursim_e-series) or follow the commands below:
      ```
-     
      docker run --rm -it -p 5900:5900 -p 6080:6080 universalrobots/ursim_e-series
-
      ```
      > * VNC port: 5900 -> -p 5900:5900 will publish the VNC port to the host, allowing the host to view the robot's user interface with a VNC application, by connecting to localhost:5900.
      > * Web browser VNC port: 6080 -> -p 6080:6080 allows the host to view the robot's user interface through a web browser with URL http://localhost:6080/vnc.html?host=localhost&port=6080⁠
