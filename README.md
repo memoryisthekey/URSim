@@ -44,9 +44,10 @@ https://github.com/user-attachments/assets/5b7dc5be-ecee-4414-aaac-cdcd4d09b53a
    
 https://github.com/user-attachments/assets/868ac612-d553-4243-96c1-0f96fce8890b
 
-6. Use the IP of the simulator in your control code/script
+6. **Use the IP of the simulator in your control code/script**
 
 7. To see the robot while your code is running you need to do a little "hack" and change from Remote to Local to be able to switch tabs and see your simulated robot.
+   When your code connects and runs you'll see a green "Running" on the screen. 
 
 https://github.com/user-attachments/assets/ef825300-c69a-44cd-acd5-528595815bd1
 
